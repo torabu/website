@@ -1,0 +1,70 @@
+body {
+	font: 16px/1.5em 'palatino linotype', 'palatino', 'georgia', 'times new roman', 'times', 'serif';
+	background: #12202A url('../img/bg-body.png') 0 0 repeat;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 100%;
+	background: url('../img/bg-wrapper.png') center top no-repeat;
+	min-height: 500px;
+	padding-top: 30px;
+}
+
+h1 {
+	display: block;
+	margin: 0 auto 1em auto;
+	background: url('../img/logo.png') 0 0 no-repeat;
+	width: 275px;
+	height: 57px;
+	text-indent: -9999px;
+}
+
+#content {
+	width: 80%;
+	min-width: 320px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.1);
+	box-shadow: inset 2px 2px 6px rgba(0,0,0,0.3);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+#content p {
+	margin: 0 0 0.75em 0;
+	padding: 0;
+	line-height: 1.25em;
+	color: #8AAAC3;
+	text-align: center;
+	text-shadow: -1px -1px 0 #12202A;
+}
+
+#content p:last-of-type {
+	margin-bottom: 0;
+}
+
+/* For larger screens */
+@media (min-width: 481px) {
+	#content {
+		max-width: 760px;
+		padding: 30px;
+	}
+
+	#content p {
+		font-size: 1.75em;
+	}
+}
+
+/* For smaller screens (generally mobile) */
+@media (max-width: 480px), (max-device-width: 480px) {
+	#content {
+		min-width: 300px;
+		padding: 20px;
+	}
+
+	#content p {
+		font-size: 1.25em;
+		line-height: 1.5em;
+	}
+}
