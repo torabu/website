@@ -1,5 +1,5 @@
 body {
-	font: 16px/1.5em 'palatino linotype', 'palatino', 'georgia', 'times new roman', 'times', 'serif';
+	font: 16px/1.5em 'san francisco', 'helvetica', 'arial', system;
 	background: #12202A url('../img/bg-body.png') 0 0 repeat;
 	margin: 0;
 	padding: 0;
@@ -15,9 +15,12 @@ body {
 h1 {
 	display: block;
 	margin: 0 auto 1em auto;
-	background: url('../img/logo.png') 0 0 no-repeat;
-	width: 275px;
-	height: 57px;
+	background-image: url('../img/logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 165px;
+	height: 100px;
 	text-indent: -9999px;
 }
 
