@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /_assets/
+Disallow: /_dev/
+Disallow: /alpha/
+Disallow: /resume/
